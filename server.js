@@ -6,7 +6,7 @@ const app = express();
 app.use(cookieParser());
 
 const groq = new Groq({
-  apiKey: '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',
+  apiKey: '',
 });
 
 // Endpoint to set cookies
